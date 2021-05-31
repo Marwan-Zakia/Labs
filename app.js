@@ -1,6 +1,5 @@
 
 //  var userName = 'user';
-
 //  var userName = prompt('Whats your name ?');
 //  alert("welcome to my badly stylized site " + userName)
 let userName = prompt('please enter your name');
@@ -11,7 +10,6 @@ let surName = prompt('please enter your surname');
   document.write(`hello <b> ${userName} </b> ${surName} <br>`)
  }
 printuserName(userName, surName);
-
 
  var favPhone = prompt('What is your smartphone?');
 
@@ -38,6 +36,13 @@ for (var i = 0; i < starRating; i++) {
   //if (starRating[i] < '5') {
    // break;
   //}
+// var starRating = i
+// var starRating = prompt('please from 0 to 5 how do you rate me ')
+// for (var i = 0; i < starRating; i++) {
+
+  //if (starRating[i] < '5') {
+  //  break;
+ 
   console.log(starRating[i])
   document.write('<img src="https://png.pngtree.com/png-clipart/20201106/ourmid/pngtree-cute-five-pointed-star-clipart-png-image_2395207.jpg" width=20px/>');
-}
+ }
